@@ -1,0 +1,76 @@
+{
+  "cross_validation": {
+    "default_hyperparameters": {
+      "accuracy": {
+        "mean": 0.9220680824513782,
+        "std": 0.00621355041095993
+      },
+      "f1": {
+        "mean": 0.897777895334569,
+        "std": 0.008315186724800009
+      },
+      "roc_auc": {
+        "mean": 0.9741625497153141,
+        "std": 0.004619504606161458
+      },
+      "average_precision": {
+        "mean": 0.9531123387819193,
+        "std": 0.008824300507961468
+      }
+    },
+    "tuned_hyperparameters": {
+      "accuracy": {
+        "mean": 0.9284821366212069,
+        "std": 0.006900510508252586
+      },
+      "f1": {
+        "mean": 0.9058386664227152,
+        "std": 0.008854508961440077
+      },
+      "roc_auc": {
+        "mean": 0.9759188642223542,
+        "std": 0.0034608589028993124
+      },
+      "average_precision": {
+        "mean": 0.9570118848014184,
+        "std": 0.005214077933246742
+      }
+    }
+  },
+  "best_hyperparameters": {
+    "n_estimators": 288,
+    "max_depth": 6,
+    "learning_rate": 0.2704729722717776,
+    "subsample": 0.8559192772506938
+  },
+  "hyperparameter_search": {
+    "n_trials": 12,
+    "best_f1_during_search": 0.9055309243909102,
+    "trial_values": [
+      0.9011992281223051,
+      0.8108048519504489,
+      0.8810453519318008,
+      0.8782202665841586,
+      0.8907753611476791,
+      0.8631641181070123,
+      0.8893756802659158,
+      0.8883218989644511,
+      0.89665314680716,
+      0.8851838731399635,
+      0.9055309243909102,
+      0.9043783799910413
+    ]
+  },
+  "robovetter_comparison": {
+    "this_model": {
+      "recall": 0.9180327868852459,
+      "precision": 0.893934019155729
+    },
+    "robovetter_published": {
+      "completeness": 0.85,
+      "completeness_note": "> 0.85 for orbital periods under 100 days (Thompson et al. 2018, DR25)",
+      "reliability": 0.98,
+      "reliability_note": "~0.98 inferred from 2% false-rejection rate on 306 borderline signals"
+    }
+  }
+}
