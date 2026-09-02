@@ -4,7 +4,7 @@ Predicting whether a Kepler-observed transit signal is a real confirmed exoplane
 
 **Jarin Binta Yeasin** | Department of Mass Communication & Journalism | University of Dhaka
 
-**[Live Dashboard](https://exoplanetdetectionviatransitphotometry-4dazlpeeydf8h7j6udhyc3.streamlit.app/)** &nbsp;·&nbsp; **[Dataset Source](https://exoplanetarchive.ipac.caltech.edu/)** &nbsp;·&nbsp; Built with scikit-learn, SHAP, Optuna, Streamlit
+**[Live Dashboard](https://exoplanetdetectionviatransitphotometry-ffkjcb3vnewuwawcrynykx.streamlit.app/)** &nbsp;·&nbsp; **[Dataset Source](https://exoplanetarchive.ipac.caltech.edu/)** &nbsp;·&nbsp; Built with scikit-learn, SHAP, Optuna, Streamlit
 
 ---
 
@@ -155,7 +155,7 @@ One notable individual error surfaced during this analysis: a Jupiter-sized cand
 
 ## Interactive dashboard
 
-**[Live app](https://exoplanetdetectionviatransitphotometry-4dazlpeeydf8h7j6udhyc3.streamlit.app/)**
+**[Live app](https://exoplanetdetectionviatransitphotometry-ffkjcb3vnewuwawcrynykx.streamlit.app/)**
 
 The Streamlit dashboard has four tabs:
 
