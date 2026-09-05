@@ -232,11 +232,11 @@ TRANSIT_SVG = f"""
           <a href="https://youtu.be/7OY_TNHtXsM" target="_blank" style="flex:0 0 auto; text-decoration:none;">
       <div style="position:relative; width:220px; border-radius:10px; overflow:hidden;
                   border:1px solid #2A3563;">
-        <img src="Thumbnail.png" style="width:100%; display:block;" alt="Video explanation thumbnail"/>
+        <img src="{YOUTUBE_THUMBNAIL}" style="width:100%; display:block;" alt="Video explanation thumbnail"/>
         <div style="position:absolute; top:0; left:0; right:0; bottom:0;
                     background:rgba(11,16,38,0.25); display:flex;
                     align-items:center; justify-content:center;">
-          <div style="width:280px; height:52px; border-radius:50%; background:rgba(11,16,38,0.75);
+          <div style="width:52px; height:52px; border-radius:50%; background:rgba(11,16,38,0.75);
                       display:flex; align-items:center; justify-content:center;
                       border:2px solid #F5A623;">
             <div style="width:0; height:0; margin-left:4px;
