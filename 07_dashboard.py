@@ -229,8 +229,7 @@ TRANSIT_SVG = f"""
         trained on raw transit. See <i>Model Details</i>. Built by Jarin Binta Yeasin, Student of University of Dhaka as an Individual Project on NASA Kepler Exoplanet Archive Data
       </div>
     </div>
-  </div>
-      <a href="https://youtu.be/7OY_TNHtXsM" target="_blank" style="flex:0 0 auto; text-decoration:none;">
+          <a href="https://youtu.be/7OY_TNHtXsM" target="_blank" style="flex:0 0 auto; text-decoration:none;">
       <div style="position:relative; width:220px; border-radius:10px; overflow:hidden;
                   border:1px solid #2A3563;">
         <img src="Thumbnail.png" style="width:100%; display:block;" alt="Video explanation thumbnail"/>
@@ -251,6 +250,7 @@ TRANSIT_SVG = f"""
         ▶ Watch: Project Walkthrough
       </div>
     </a>
+  </div>
 </div>
 """
 st.markdown(TRANSIT_SVG, unsafe_allow_html=True)
