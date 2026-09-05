@@ -1,5 +1,5 @@
 """
-Input:  X_train.csv, X_test.csv, y_train.csv, y_test.csv  (from Step 4)
+Input:  X_train.csv, X_test.csv, y_train.csv, y_test.csv
 Output: Interactive Streamlit web app
 """
 
@@ -197,7 +197,10 @@ X_test_i = pd.DataFrame(imputer.transform(X_test_nf), columns=feature_cols)
 y_test_proba = model.predict_proba(X_test_i)[:, 1]
 y_test_pred = (y_test_proba >= 0.5).astype(int)
 
-TRANSIT_SVG = """
+YOUTUBE_VIDEO_ID = "7OY_TNHtXsM"
+YOUTUBE_URL = f"https://youtu.be/7OY_TNHtXsM"
+YOUTUBE_THUMBNAIL = f"https://img.youtube.com/vi/7OY_TNHtXsM/maxresdefault.jpg"
+TRANSIT_SVG = f"""
 <div style="background:#141B36; border:1px solid #2A3563; border-radius:14px;
             padding:22px 28px; margin-bottom:6px;">
   <div style="display:flex; align-items:center; gap:22px; flex-wrap:wrap;">
@@ -227,6 +230,27 @@ TRANSIT_SVG = """
       </div>
     </div>
   </div>
+      <a href="https://youtu.be/7OY_TNHtXsM" target="_blank" style="flex:0 0 auto; text-decoration:none;">
+      <div style="position:relative; width:220px; border-radius:10px; overflow:hidden;
+                  border:1px solid #2A3563;">
+        <img src="Thumbnail.png" style="width:100%; display:block;" alt="Video explanation thumbnail"/>
+        <div style="position:absolute; top:0; left:0; right:0; bottom:0;
+                    background:rgba(11,16,38,0.25); display:flex;
+                    align-items:center; justify-content:center;">
+          <div style="width:52px; height:52px; border-radius:50%; background:rgba(11,16,38,0.75);
+                      display:flex; align-items:center; justify-content:center;
+                      border:2px solid #F5A623;">
+            <div style="width:0; height:0; margin-left:4px;
+                        border-top:10px solid transparent; border-bottom:10px solid transparent;
+                        border-left:16px solid #F5A623;"></div>
+          </div>
+        </div>
+      </div>
+      <div style="color:#9AA3C7; font-size:0.72rem; text-align:center; margin-top:6px;
+                  text-transform:uppercase; letter-spacing:0.05em;">
+        ▶ Watch: Project Walkthrough
+      </div>
+    </a>
 </div>
 """
 st.markdown(TRANSIT_SVG, unsafe_allow_html=True)
